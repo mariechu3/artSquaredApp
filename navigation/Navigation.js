@@ -161,7 +161,7 @@ export default Navigation = ({ drawings, addDrawing, removeDrawing, editDrawing 
                     ),
                 }}
             >
-                {({ route }) => <Chat route={route} />}
+                {({ route, navigation }) => <Chat route={route} navigation={navigation} />}
             </Drawer.Screen>
             <Drawer.Screen
                 name="Gallery"

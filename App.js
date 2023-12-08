@@ -47,7 +47,7 @@ export default function App() {
     setDrawings(drawings => [...drawings, { ...drawing }])
   }
   const removeDrawing = (drawing) => {
-    setDrawings(drawings => drawings.filter(x => x.name != drawing.name))
+    setDrawings(drawings => drawings.filter(x => x.uri != drawing.uri))
   }
 
   const editDrawing = (drawing) => {

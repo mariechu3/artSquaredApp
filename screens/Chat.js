@@ -13,6 +13,8 @@ const styles = StyleSheet.create({
   },
 });
 
+
+
 // const customtInputToolbar = props => {
 //   return (
 //     <InputToolbar
@@ -36,7 +38,7 @@ const renderBubble = (props) => {
   return <Bubble {...props} />;
 };
 
-export default Chat = ({ route }) => {
+export default Chat = ({ navigation, route }) => {
   const name = route?.params?.name ? route.params.name : null;
 
   const [messages, setMessages] = useState([])

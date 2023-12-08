@@ -388,7 +388,7 @@ export default Canvas = ({ addDrawing, navigation, route }) => {
               <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{flexDirection: "row-reverse"}} >
                 <View style={{ display: "flex", justifyContent: 'flex-end', flexDirection: "row-reverse", gap: 5 }}>
                   {[...selectedFriends].map(friend =>
-                    <TouchableOpacity onPress={() => navigation.navigate('Chat', { friend: friend })}>
+                    <TouchableOpacity onPress={() => navigation.navigate('Chat', { name: friend })}>
                       <Image style={{ width: 40, height: 40 }} source={images[`${friend}Active`]} />
                     </TouchableOpacity>
                   )}
