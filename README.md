@@ -40,6 +40,7 @@ Currently only pre-populated artwork is embedded in the messages when sharing wi
  
 
 Marie C. Becky M. David C. Leyth T.
+ __Note: this repo is a copy of [our combined repo](https://github.com/mariechu3/ArtSquared) with commit history__
 
 
 
