@@ -328,6 +328,7 @@ export default Canvas = ({ addDrawing, navigation, route }) => {
 
     onSelectColor = () => {
       setSelectedColor(clr)
+      setSelectedTool(0)
     }
 
     onLongPressColor = () => {
